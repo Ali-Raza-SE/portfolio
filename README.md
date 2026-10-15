@@ -19,8 +19,8 @@
   ROBOTS:       index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   LANGUAGE:     English
   GEOGRAPHY:    Pakistan (PK) — Available Worldwide (Remote)
-  CANONICAL:    https://github.com/Ali-Raza-Muhammad-Iqbal
-  PORTFOLIO:    https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/
+  CANONICAL:    https://github.com/Ali-Raza-SE
+  PORTFOLIO:    https://Ali-Raza-SE.github.io/portfolio/
   LINKEDIN:     https://www.linkedin.com/in/ali-raza-software-engineer1
   EMAIL:        Mr_Ali_Raza@yahoo.com
   LAST-UPDATED: 2026-10-15
@@ -33,15 +33,15 @@
   og:title            = Ali Raza — Java Backend Engineer | Spring Boot Developer
   og:description      = Software Engineer building scalable Java/Spring Boot backends,
                         REST APIs, and enterprise-grade microservices. Portfolio inside.
-  og:url              = https://github.com/Ali-Raza-Muhammad-Iqbal
-  og:image            = https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/preview.png
+  og:url              = https://github.com/Ali-Raza-SE
+  og:image            = https://Ali-Raza-SE.github.io/portfolio/preview.png
   og:site_name        = GitHub
   profile:first_name  = Ali
   profile:last_name   = Raza
   twitter:card        = summary_large_image
   twitter:title       = Ali Raza — Software Engineer | Java Backend Developer
   twitter:description = Java • Spring Boot • REST APIs • Microservices • MySQL • System Design
-  twitter:image       = https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/preview.png
+  twitter:image       = https://Ali-Raza-SE.github.io/portfolio/preview.png
 -->
 
 <!-- JSON-LD STRUCTURED DATA — ENABLES GOOGLE KNOWLEDGE PANEL -->
@@ -55,13 +55,13 @@
     "alternateName": "Ali Raza Muhammad Iqbal",
     "jobTitle": "Software Engineer",
     "description": "Software Engineer specializing in Java, Spring Boot, REST APIs, Microservices, and scalable backend infrastructure.",
-    "url": "https://github.com/Ali-Raza-Muhammad-Iqbal",
-    "image": "https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/preview.png",
+    "url": "https://github.com/Ali-Raza-SE",
+    "image": "https://Ali-Raza-SE.github.io/portfolio/preview.png",
     "email": "mailto:Mr_Ali_Raza@yahoo.com",
     "sameAs": [
-      "https://github.com/Ali-Raza-Muhammad-Iqbal",
+      "https://github.com/Ali-Raza-SE",
       "https://www.linkedin.com/in/ali-raza-software-engineer1",
-      "https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/"
+      "https://Ali-Raza-SE.github.io/portfolio/"
     ],
     "knowsAbout": [
       "Java", "Spring Boot", "Spring Core", "Spring Data JPA", "Hibernate", "JDBC",
@@ -94,7 +94,7 @@
 </p>
 
 <p align="center">
-  <a href="https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/">
+  <a href="https://Ali-Raza-SE.github.io/portfolio/">
     <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-success?style=for-the-badge" alt="Ali Raza Portfolio Website"/>
   </a>
   <a href="https://www.linkedin.com/in/ali-raza-software-engineer1">
@@ -109,7 +109,7 @@
 
 ## 🌐 My Portfolio Website
 
-> **👉 [https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/](https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/)**
+> **👉 [https://Ali-Raza-SE.github.io/portfolio/](https://Ali-Raza-SE.github.io/portfolio/)**
 
 My interactive portfolio showcases:
 - 🚀 **Featured backend projects** (Java + Spring Boot)
@@ -118,7 +118,7 @@ My interactive portfolio showcases:
 - 📄 **Full résumé & work experience**
 - 📬 **Contact form & collaboration opportunities**
 
-**Visit → [Ali-Raza-Muhammad-Iqbal.github.io/portfolio](https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/)**
+**Visit → [Ali-Raza-SE.github.io/portfolio](https://Ali-Raza-SE.github.io/portfolio/)**
 
 ---
 
@@ -180,16 +180,16 @@ In addition to engineering enterprise software solutions, my background as a **C
 
 ## 📂 Featured Projects
 
-> 🔗 See all projects with live demos on my portfolio → **[Ali-Raza-Muhammad-Iqbal.github.io/portfolio](https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/)**
+> 🔗 See all projects with live demos on my portfolio → **[Ali-Raza-SE.github.io/portfolio](https://Ali-Raza-SE.github.io/portfolio/)**
 
 <!-- Replace the placeholders below with your real repos -->
 
 | Project | Description | Tech Stack | Link |
 |---|---|---|---|
-| **REST API Service** | Production-grade REST API with authentication, pagination & versioning | Java, Spring Boot, MySQL | [Repo](https://github.com/Ali-Raza-Muhammad-Iqbal) |
-| **Microservices Backend** | Distributed backend with service discovery & API gateway | Spring Boot, Spring Cloud | [Repo](https://github.com/Ali-Raza-Muhammad-Iqbal) |
-| **Database Optimization** | MySQL schema redesign improving query speed by 60%+ | MySQL, Stored Procedures | [Repo](https://github.com/Ali-Raza-Muhammad-Iqbal) |
-| **PHP Native App** | Full-stack PHP application with custom MVC architecture | PHP, MySQL, JS | [Repo](https://github.com/Ali-Raza-Muhammad-Iqbal) |
+| **REST API Service** | Production-grade REST API with authentication, pagination & versioning | Java, Spring Boot, MySQL | [Repo](https://github.com/Ali-Raza-SE) |
+| **Microservices Backend** | Distributed backend with service discovery & API gateway | Spring Boot, Spring Cloud | [Repo](https://github.com/Ali-Raza-SE) |
+| **Database Optimization** | MySQL schema redesign improving query speed by 60%+ | MySQL, Stored Procedures | [Repo](https://github.com/Ali-Raza-SE) |
+| **PHP Native App** | Full-stack PHP application with custom MVC architecture | PHP, MySQL, JS | [Repo](https://github.com/Ali-Raza-SE) |
 
 ---
 
@@ -197,9 +197,9 @@ In addition to engineering enterprise software solutions, my background as a **C
 
 If you're looking for a rigorous **Backend Engineer** to build dependable server-side platforms, optimize database execution architectures, or collaborate on open-source initiatives — let's connect:
 
-- 🌐 **Portfolio Website:** [Ali-Raza-Muhammad-Iqbal.github.io/portfolio](https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/)
+- 🌐 **Portfolio Website:** [Ali-Raza-SE.github.io/portfolio](https://Ali-Raza-SE.github.io/portfolio/)
 - 💼 **LinkedIn:** [Ali Raza — Software Engineer](https://www.linkedin.com/in/ali-raza-software-engineer1)
-- 🐙 **GitHub:** [@Ali-Raza-Muhammad-Iqbal](https://github.com/Ali-Raza-Muhammad-Iqbal)
+- 🐙 **GitHub:** [@Ali-Raza-SE](https://github.com/Ali-Raza-SE)
 - 📧 **Email:** [Mr_Ali_Raza@yahoo.com](mailto:Mr_Ali_Raza@yahoo.com)
 
 ---
