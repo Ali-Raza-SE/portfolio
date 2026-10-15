@@ -1,408 +1,887 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <!-- ==================== CORE META ==================== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ali Raza</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- Bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <!-- ==================== PRIMARY SEO ==================== -->
+    <title>Ali Raza — Software Engineer | Java Backend Developer | Spring Boot</title>
+    <meta name="description" content="Ali Raza (Ali Raza Muhammad Iqbal) — Software Engineer & Java Backend Developer specializing in Spring Boot, REST APIs, Microservices, MySQL, and scalable backend architecture. Portfolio, projects, and CV." />
+    <meta name="keywords" content="Ali Raza, Ali Raza Muhammad Iqbal, Software Engineer, Java Developer, Java Backend Developer, Spring Boot Developer, REST API Developer, Microservices Engineer, Backend Engineer Pakistan, MySQL Developer, PHP Developer, System Design, Clean Code, OOP, DSA, Hibernate, Computer Science Lecturer, Web Developer, Portfolio" />
+    <meta name="author" content="Ali Raza (Ali Raza Muhammad Iqbal)" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
+    <meta name="theme-color" content="#0f172a" />
 
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    <!-- Geo / Locale -->
+    <meta name="geo.region" content="PK" />
+    <meta name="geo.placename" content="Pakistan" />
+
+    <!-- ==================== CANONICAL ==================== -->
+    <link rel="canonical" href="https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/" />
+
+    <!-- ==================== OPEN GRAPH (Facebook / LinkedIn / WhatsApp) ==================== -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Ali Raza — Software Engineer | Java Backend Developer" />
+    <meta property="og:description" content="Java • Spring Boot • REST APIs • Microservices • MySQL. Building scalable, enterprise-grade backend systems." />
+    <meta property="og:url" content="https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/" />
+    <meta property="og:site_name" content="Ali Raza Portfolio" />
+    <meta property="og:image" content="https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/res/preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ali Raza — Software Engineer Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="profile:first_name" content="Ali" />
+    <meta property="profile:last_name" content="Raza" />
+
+    <!-- ==================== TWITTER CARD ==================== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ali Raza — Software Engineer | Java Backend Developer" />
+    <meta name="twitter:description" content="Java • Spring Boot • REST APIs • Microservices • MySQL. Portfolio & projects." />
+    <meta name="twitter:image" content="https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/res/preview.png" />
+
+    <!-- ==================== FAVICON ==================== -->
+    <link rel="icon" type="image/png" href="res/favicon.png" />
+    <link rel="apple-touch-icon" href="res/favicon.png" />
+
+    <!-- ==================== PERFORMANCE: PRECONNECT ==================== -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ==================== FONTS ==================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+
+    <!-- ==================== BOOTSTRAP 5 ==================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- ==================== FONT AWESOME ==================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- ==================== JSON-LD STRUCTURED DATA ==================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ali Raza",
+      "alternateName": "Ali Raza Muhammad Iqbal",
+      "jobTitle": "Software Engineer",
+      "description": "Software Engineer specializing in Java, Spring Boot, REST APIs, Microservices, and scalable backend infrastructure.",
+      "url": "https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/",
+      "image": "https://Ali-Raza-Muhammad-Iqbal.github.io/portfolio/res/Ali-Raza.png",
+      "email": "mailto:Mr_Ali_Raza@yahoo.com",
+      "telephone": "+923076871720",
+      "sameAs": [
+        "https://github.com/Ali-Raza-Muhammad-Iqbal/",
+        "https://www.linkedin.com/in/ali-raza-software-engineer1/"
+      ],
+      "knowsAbout": [
+        "Java", "Spring Boot", "Spring Core", "Spring Data JPA", "Hibernate", "JDBC",
+        "REST APIs", "Microservices", "System Design", "MySQL", "Firebase",
+        "PHP", "HTML5", "CSS3", "JavaScript",
+        "Object-Oriented Programming", "Data Structures and Algorithms",
+        "Database Management Systems", "SDLC", "SOLID Principles", "Clean Code"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Virtual University"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "AFIP"
+      },
+      "nationality": {
+        "@type": "Country",
+        "name": "Pakistan"
+      }
+    }
+    </script>
+
+    <!-- ==================== COLOR PALETTE (DESIGN TOKENS) ====================
+         Deep Navy   #0f172a   → primary background / navbar
+         Slate       #1e293b   → secondary surface
+         Teal        #14b8a6   → primary accent (buttons, highlights)
+         Emerald     #10b981   → hover / success accent
+         Amber       #f59e0b   → secondary accent (badges)
+         Off-white   #f8fafc   → light background
+         Muted       #64748b   → secondary text
+    ======================================================================== -->
 
     <style>
-      body {
-        scroll-behavior: smooth;
-      }
+        :root {
+            --navy: #0f172a;
+            --slate: #1e293b;
+            --slate-light: #334155;
+            --teal: #14b8a6;
+            --teal-dark: #0d9488;
+            --emerald: #10b981;
+            --amber: #f59e0b;
+            --off-white: #f8fafc;
+            --muted: #64748b;
+            --border: #e2e8f0;
+            --text: #1e293b;
+            --text-light: #f1f5f9;
+            --shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+            --shadow-hover: 0 12px 32px rgba(20, 184, 166, 0.15);
+        }
 
-      header {
-        background: #0d6efd;
-        color: white;
-        padding: 140px 0 120px;
-        text-align: center;
-      }
+        * { scroll-behavior: smooth; }
 
-      .profile-img {
-        width: 180px;
-        height: 180px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 5px solid white;
-        margin-bottom: 20px;
-      }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text);
+            background: var(--off-white);
+            line-height: 1.65;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
 
-      .section-title {
-        margin-bottom: 40px;
-        font-weight: 700;
-        text-align: center;
-      }
+        h1, h2, h3, h4, h5 { font-weight: 700; letter-spacing: -0.02em; }
 
-      section {
-        max-width: 70%;
-        margin: auto;
-      }
+        /* ---------- NAVBAR ---------- */
+        .navbar-custom {
+            background-color: rgba(15, 23, 42, 0.95) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            padding: 0.75rem 0;
+            transition: background 0.3s ease;
+        }
 
-      footer {
-        background: #0d6efd;
-        color: white;
-        padding: 20px 0;
-        text-align: center;
-      }
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.35rem;
+            letter-spacing: -0.03em;
+            color: #fff !important;
+        }
 
-      .navbar-custom {
-        background-color: #0d6efd !important;
-      }
+        .navbar-brand::after {
+            content: '.';
+            color: var(--teal);
+            font-size: 1.5rem;
+        }
 
-      .contact-form-wrapper {
-        width: 70%;
-        margin: auto;
-      }
+        .navbar-custom .nav-link {
+            color: rgba(241, 245, 249, 0.85) !important;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 1rem !important;
+            transition: color 0.2s ease;
+            position: relative;
+        }
 
-      .skill-box {
-        border-left: 4px solid #0d6efd;
-        padding: 20px;
-        margin-bottom: 25px;
-        background: #f8f9fa;
-        border-radius: 5px;
-      }
+        .navbar-custom .nav-link:hover {
+            color: var(--teal) !important;
+        }
 
-      /* ---------------- DARK MODE ---------------- */
-      .dark-mode {
-        background-color: #000 !important;
-        color: #fff !important;
-      }
+        .navbar-custom .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 4px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: var(--teal);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
 
-      .dark-mode .navbar-custom {
-        background-color: #111 !important;
-      }
+        .navbar-custom .nav-link:hover::after {
+            width: 60%;
+        }
 
-      .dark-mode header {
-        background: #222 !important;
-        color: #fff !important;
-      }
+        /* ---------- HERO ---------- */
+        header {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--slate) 55%, var(--slate-light) 100%);
+            color: #fff;
+            padding: 160px 0 110px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
 
-      .dark-mode .section-title {
-        color: #fff !important;
-      }
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(20, 184, 166, 0.18) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
 
-      .dark-mode .card {
-        background: #1c1c1c !important;
-        color: #eee !important;
-        border: 1px solid #444;
-      }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: -40%;
+            left: -8%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.12) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
 
-      .dark-mode .list-group-item {
-        background: #1b1b1b !important;
-        color: #eaeaea !important;
-        border-color: #444;
-      }
+        header > * { position: relative; z-index: 1; }
 
-      .dark-mode .skill-box {
-        background: #1b1b1b !important;
-        border-left-color: #555;
-        color: #fff;
-      }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--teal);
+            box-shadow: 0 0 0 8px rgba(20, 184, 166, 0.15);
+            margin-bottom: 24px;
+            transition: transform 0.4s ease;
+        }
 
-      .dark-mode footer {
-        background: #111 !important;
-        color: #fff !important;
-      }
+        .profile-img:hover { transform: scale(1.04); }
 
-      .dark-mode .form-control,
-      .dark-mode textarea {
-        background: #222 !important;
-        color: white !important;
-        border: 1px solid #555 !important;
-      }
+        header h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.03em;
+        }
 
-      .dark-mode .btn-primary {
-        background: #444 !important;
-        border-color: #666 !important;
-      }
+        header p {
+            font-size: 1.15rem;
+            color: rgba(241, 245, 249, 0.85);
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+
+        header .btn-light {
+            background: var(--teal);
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            padding: 0.75rem 1.75rem;
+            border-radius: 8px;
+            transition: all 0.25s ease;
+        }
+
+        header .btn-light:hover {
+            background: var(--emerald);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.35);
+            color: #fff;
+        }
+
+        header .btn-outline-light {
+            border: 1.5px solid rgba(241, 245, 249, 0.5);
+            color: #fff;
+            font-weight: 600;
+            padding: 0.75rem 1.75rem;
+            border-radius: 8px;
+            transition: all 0.25s ease;
+        }
+
+        header .btn-outline-light:hover {
+            background: rgba(241, 245, 249, 0.1);
+            border-color: var(--teal);
+            color: var(--teal);
+            transform: translateY(-2px);
+        }
+
+        /* ---------- SECTIONS ---------- */
+        section {
+            max-width: 72%;
+            margin: auto;
+            padding: 80px 0;
+        }
+
+        @media (max-width: 992px) {
+            section { max-width: 90%; padding: 60px 0; }
+        }
+
+        .section-title {
+            margin-bottom: 48px;
+            font-weight: 800;
+            text-align: center;
+            font-size: 2rem;
+            color: var(--navy);
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--teal), var(--emerald));
+            margin: 12px auto 0;
+            border-radius: 2px;
+        }
+
+        /* ---------- LIST GROUP ---------- */
+        .list-group-item {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--teal);
+            border-radius: 8px !important;
+            margin-bottom: 12px;
+            padding: 1.15rem 1.35rem;
+            transition: all 0.25s ease;
+            color: var(--text);
+        }
+
+        .list-group-item:hover {
+            border-left-color: var(--emerald);
+            transform: translateX(4px);
+            box-shadow: var(--shadow);
+        }
+
+        .list-group-item strong { color: var(--navy); }
+
+        /* ---------- CARDS (EXPERIENCE) ---------- */
+        .card {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: #fff;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--teal);
+        }
+
+        .card-body { padding: 1.75rem; }
+
+        .card-title {
+            color: var(--navy);
+            font-weight: 700;
+            font-size: 1.15rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--off-white);
+        }
+
+        .card-text li {
+            color: var(--slate);
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        /* ---------- SKILL BOXES ---------- */
+        .skill-box {
+            border-left: 4px solid var(--teal);
+            padding: 24px 28px;
+            margin-bottom: 24px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
+
+        .skill-box:hover {
+            border-left-color: var(--amber);
+            transform: translateX(4px);
+        }
+
+        .skill-title {
+            font-weight: 700;
+            color: var(--navy);
+            font-size: 1.15rem;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .skill-title::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: var(--teal);
+            border-radius: 50%;
+        }
+
+        .skill-box ul {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 0;
+        }
+
+        .skill-box ul li {
+            background: var(--off-white);
+            color: var(--slate);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+            transition: all 0.2s ease;
+        }
+
+        .skill-box ul li:hover {
+            background: var(--teal);
+            color: #fff;
+            border-color: var(--teal);
+            transform: translateY(-2px);
+        }
+
+        /* ---------- CONTACT FORM ---------- */
+        .contact-form-wrapper { width: 70%; margin: auto; }
+
+        @media (max-width: 992px) { .contact-form-wrapper { width: 100%; } }
+
+        .contact-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-card h4 { color: var(--navy); }
+
+        .form-control {
+            border: 1.5px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            background: #fff;
+            color: var(--text);
+        }
+
+        .form-control:focus {
+            border-color: var(--teal);
+            box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.12);
+            outline: none;
+        }
+
+        .form-label { color: var(--slate); font-size: 0.92rem; }
+
+        .contact-btn {
+            background: linear-gradient(135deg, var(--teal) 0%, var(--emerald) 100%);
+            border: none;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            border-radius: 8px;
+            transition: all 0.25s ease;
+        }
+
+        .contact-btn:hover {
+            background: linear-gradient(135deg, var(--emerald) 0%, var(--teal) 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(20, 184, 166, 0.35);
+        }
+
+        /* ---------- SOCIAL ICONS ---------- */
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: #fff;
+            color: var(--navy);
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            background: var(--teal);
+            color: #fff;
+            transform: translateY(-4px) rotate(4deg);
+            box-shadow: 0 12px 28px rgba(20, 184, 166, 0.35);
+        }
+
+        /* ---------- FOOTER ---------- */
+        footer {
+            background: var(--navy);
+            color: rgba(241, 245, 249, 0.75);
+            padding: 28px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        footer p { margin: 0; }
+
+        /* ================================================== */
+        /* DARK MODE                                          */
+        /* ================================================== */
+        .dark-mode {
+            background-color: #0a0f1c !important;
+            color: var(--text-light) !important;
+        }
+
+        .dark-mode .navbar-custom {
+            background-color: rgba(10, 15, 28, 0.95) !important;
+        }
+
+        .dark-mode header {
+            background: linear-gradient(135deg, #050810 0%, #0f172a 55%, #1e293b 100%);
+        }
+
+        .dark-mode .section-title { color: var(--text-light) !important; }
+
+        .dark-mode .card,
+        .dark-mode .skill-box,
+        .dark-mode .list-group-item,
+        .dark-mode .contact-card,
+        .dark-mode .social-icon {
+            background: #111827 !important;
+            color: var(--text-light) !important;
+            border-color: #1f2937;
+        }
+
+        .dark-mode .card-title,
+        .dark-mode .skill-title,
+        .dark-mode .list-group-item strong,
+        .dark-mode .contact-card h4 {
+            color: var(--teal) !important;
+        }
+
+        .dark-mode .card-text li { color: #cbd5e1; }
+
+        .dark-mode .skill-box ul li {
+            background: #1f2937;
+            color: #cbd5e1;
+            border-color: #374151;
+        }
+
+        .dark-mode .skill-box ul li:hover {
+            background: var(--teal);
+            color: #fff;
+        }
+
+        .dark-mode .form-control,
+        .dark-mode textarea {
+            background: #1f2937 !important;
+            color: #fff !important;
+            border-color: #374151 !important;
+        }
+
+        .dark-mode .form-control::placeholder { color: #94a3b8; }
+
+        .dark-mode .form-label { color: #cbd5e1; }
+
+        .dark-mode .list-group-item:hover,
+        .dark-mode .card:hover {
+            border-color: var(--teal);
+        }
+
+        .dark-mode footer {
+            background: #050810 !important;
+            color: rgba(241, 245, 249, 0.6) !important;
+        }
+
+        #themeToggle {
+            background: transparent;
+            border: 1.5px solid rgba(241, 245, 249, 0.4);
+            color: #fff;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.25s ease;
+        }
+
+        #themeToggle:hover {
+            background: var(--teal);
+            border-color: var(--teal);
+            transform: rotate(20deg);
+        }
+
+        /* Utility for a11y */
+        .visually-hidden {
+            position: absolute !important;
+            width: 1px; height: 1px;
+            padding: 0; margin: -1px;
+            overflow: hidden; clip: rect(0, 0, 0, 0);
+            white-space: nowrap; border: 0;
+        }
     </style>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Ali Raza</a>
+</head>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body>
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#top">Ali Raza</a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto me-3">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#academic">Academic</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <!-- 🌙 DARK / ☀️ LIGHT TOGGLE BUTTON -->
-          <button id="themeToggle" class="btn btn-light btn-sm">
-            <i class="fa-solid fa-moon"></i>
-          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#academic">Academic</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <button id="themeToggle" class="btn btn-sm" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- HERO -->
-    <header>
-      <img src="res/Ali-Raza.png" class="profile-img" alt="My Photo" />
-      <h1>Ali Raza</h1>
-      <p>Web Developer | Java Developer | Programmer | CS Teacher</p>
+    <main id="top">
+        <!-- ==================== HERO ==================== -->
+        <header>
+            <div class="container">
+                <img src="res/Ali-Raza.png" class="profile-img"
+                     alt="Ali Raza — Software Engineer and Java Backend Developer"
+                     loading="eager" width="180" height="180" />
+                <h1>Ali Raza</h1>
+                <p>Software Engineer · Java Backend Developer · Spring Boot Engineer</p>
 
-      <div class="mt-4">
-        <a href="res/Ali_Raza.pdf" class="btn btn-light btn-lg me-2" download>
-          <i class="fa fa-download me-1"></i> Download CV
-        </a>
-        <a href="tel:+923076871720" class="btn btn-outline-light btn-lg">
-          <i class="fa fa-phone me-1"></i> Call Me
-        </a>
-      </div>
-    </header>
+                <div class="mt-4">
+                    <a href="res/Ali_Raza.pdf" class="btn btn-light btn-lg me-2" download
+                       aria-label="Download Ali Raza CV">
+                        <i class="fa fa-download me-1"></i> Download CV
+                    </a>
+                    <a href="tel:+923076871720" class="btn btn-outline-light btn-lg"
+                       aria-label="Call Ali Raza">
+                        <i class="fa fa-phone me-1"></i> Call Me
+                    </a>
+                </div>
+            </div>
+        </header>
 
-    <!-- ABOUT -->
-    <section id="about" class="py-5">
-      <h2 class="section-title">About Me</h2>
-      <p class="text-center">
-        Hi! I'm a passionate developer skilled in creating responsive web
-        applications. I enjoy coding, problem-solving, and learning new
-        technologies.
-      </p>
-    </section>
+        <!-- ==================== ABOUT ==================== -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p class="text-center">
+                I'm a passionate <strong>Software Engineer</strong> skilled in creating responsive
+                web applications and scalable backend systems. I specialize in
+                <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>REST APIs</strong>,
+                and <strong>MySQL</strong> — and I enjoy coding, problem-solving, and learning
+                new technologies. Alongside engineering, I teach Computer Science, covering
+                OOP, DSA, Databases, and Software Engineering.
+            </p>
+        </section>
 
-    <!-- ACADEMIC -->
-    <section id="academic" class="py-5">
-      <h2 class="section-title">Academic</h2>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <strong>Bachelor of Science in IT</strong><br />Virtual University –
-          2020–2024
-        </li>
-        <li class="list-group-item">
-          <strong>College</strong><br />Govt Degree College Zafarwal – 2018–2020
-        </li>
-        <li class="list-group-item">
-          <strong>School</strong><br />Ghazali Public High School – 2016–2018
-        </li>
-      </ul>
-    </section>
-
-    <!-- EXPERIENCE -->
-<section id="experience" class="py-5">
-    <h2 class="section-title">Experience</h2>
-
-    <!-- Experience 1 -->
-    <div class="card mb-3">
-        <div class="card-body">
-            <h5 class="card-title">Computer Science Lecturer – Ornate College Dhamthal</h5>
-            <ul class="card-text">
-                <li>Delivered lectures on core CS subjects: Programming Fundamentals, OOP, DSA, Databases, Web Development, Software Engineering, and Computer Networks.</li>
-                <li>Designed and maintained course outlines, lesson plans, lab manuals, assignments, and quizzes.</li>
-                <li>Ensured course content aligned with modern industry standards and academic best practices.</li>
-                <li>Guided students through practical labs and real-world problem-solving activities.</li>
+        <!-- ==================== ACADEMIC ==================== -->
+        <section id="academic">
+            <h2 class="section-title">Academic</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Bachelor of Science in IT</strong><br />
+                    Virtual University — 2020–2024
+                </li>
+                <li class="list-group-item">
+                    <strong>College</strong><br />
+                    Govt Degree College Zafarwal — 2018–2020
+                </li>
+                <li class="list-group-item">
+                    <strong>School</strong><br />
+                    Ghazali Public High School — 2016–2018
+                </li>
             </ul>
-        </div>
-    </div>
+        </section>
 
-    <!-- Experience 2 -->
-    <div class="card mb-3">
-        <div class="card-body">
-            <h5 class="card-title">Associate Software Engineer – AFIP</h5>
-            <ul class="card-text">
-                <li>Worked on web applications, enterprise solutions, and automation tools across full SDLC.</li>
-                <li>Strengthened expertise in Java (OOP, Collections, Java 8 streams and lambdas, exception handling, multithreading).</li>
-                <li>Developed scalable backend services using Spring Core, Spring Boot, and RESTful APIs.</li>
-                <li>Designed optimized database schemas, complex queries, and stored procedures in MySQL.</li>
-                <li>Focused on performance optimization, reliability, and efficient client-server communication.</li>
-            </ul>
-        </div>
-    </div>
+        <!-- ==================== EXPERIENCE ==================== -->
+        <section id="experience">
+            <h2 class="section-title">Experience</h2>
 
-    <!-- Optional Intern Experience -->
-    <!--
-    <div class="card mb-3">
-        <div class="card-body">
-            <h5 class="card-title">Intern – TBZ</h5>
-            <ul class="card-text">
-                <li>Developed websites and mobile applications for clients.</li>
-            </ul>
-        </div>
-    </div>
-    -->
-</section>
+            <article class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Computer Science Lecturer — Ornate College Dhamthal</h3>
+                    <ul class="card-text">
+                        <li>Delivered lectures on core CS subjects: Programming Fundamentals, OOP, DSA, Databases, Web Development, Software Engineering, and Computer Networks.</li>
+                        <li>Designed and maintained course outlines, lesson plans, lab manuals, assignments, and quizzes.</li>
+                        <li>Ensured course content aligned with modern industry standards and academic best practices.</li>
+                        <li>Guided students through practical labs and real-world problem-solving activities.</li>
+                    </ul>
+                </div>
+            </article>
 
+            <article class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Associate Software Engineer — AFIP</h3>
+                    <ul class="card-text">
+                        <li>Worked on web applications, enterprise solutions, and automation tools across full SDLC.</li>
+                        <li>Strengthened expertise in Java (OOP, Collections, Java 8 streams and lambdas, exception handling, multithreading).</li>
+                        <li>Developed scalable backend services using Spring Core, Spring Boot, and RESTful APIs.</li>
+                        <li>Designed optimized database schemas, complex queries, and stored procedures in MySQL.</li>
+                        <li>Focused on performance optimization, reliability, and efficient client-server communication.</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
 
+        <!-- ==================== SKILLS ==================== -->
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
 
-
-    <!-- SKILLS -->
-    <section id="skills" class="py-5">
-      <h2 class="section-title">Skills</h2>
-
-      <div class="skill-box">
-        <div class="skill-title">Java</div>
-        <ul>
-          <li>Core Java</li>
-          <li>OOP</li>
-          <li>JDBC</li>
-          <li>Collections</li>
-          <li>Java 8</li>
-          <li>Hibernate</li>
-          <li>Spring Core</li>
-          <li>Spring Boot</li>
-        </ul>
-      </div>
-
-      <div class="skill-box">
-        <div class="skill-title">Others</div>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
-          <li>PHP</li>
-        </ul>
-      </div>
-
-      <div class="skill-box">
-        <div class="skill-title">Databases</div>
-        <ul>
-          <li>MySQL</li>
-          <li>Firebase</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <!-- <section id="projects" class="py-5">
-      <h2 class="section-title">Projects</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body text-center">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Description of your project.</p>
-              <a href="#" class="btn btn-primary">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body text-center">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">Description of your project.</p>
-              <a href="#" class="btn btn-primary">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body text-center">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">Description of your project.</p>
-              <a href="#" class="btn btn-primary">View</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- CONTACT -->
-<section id="contact" class="py-5">
-    <h2 class="section-title">Contact Me</h2>
-
-    <div class="contact-form-wrapper">
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-card p-4 rounded-4 shadow">
-            <h4 class="mb-3 text-center fw-bold">Get In Touch</h4>
-            <input type="hidden" name="access_key" value="8375db8b-3b27-4ea7-9f06-7b28917a39e5">
-            <div class="mb-3">
-                <label class="form-label fw-semibold">Your Name</label>
-                <input type="text" name="name" class="form-control contact-input" placeholder="Enter your name">
+            <div class="skill-box">
+                <h3 class="skill-title">Java</h3>
+                <ul>
+                    <li>Core Java</li>
+                    <li>OOP</li>
+                    <li>JDBC</li>
+                    <li>Collections</li>
+                    <li>Java 8</li>
+                    <li>Hibernate</li>
+                    <li>Spring Core</li>
+                    <li>Spring Boot</li>
+                </ul>
             </div>
 
-            <div class="mb-3">
-                <label class="form-label fw-semibold">Email</label>
-                <input type="email" name="email" class="form-control contact-input" placeholder="Enter your email">
+            <div class="skill-box">
+                <h3 class="skill-title">Others</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>PHP</li>
+                </ul>
             </div>
 
-            <div class="mb-3">
-                <label class="form-label fw-semibold">Message</label>
-                <textarea class="form-control contact-input" name="message" rows="4" placeholder="Write your message"></textarea>
+            <div class="skill-box">
+                <h3 class="skill-title">Databases</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>Firebase</li>
+                </ul>
             </div>
+        </section>
 
-            <button class="btn btn-primary w-100 py-2 contact-btn">
-                Send Message
-            </button>
-        </form>
-    </div>
-</section>
+        <!-- ==================== PROJECTS ==================== -->
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <article class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Project 1</h3>
+                            <p class="card-text">Description of your project.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">Description of your project.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="card mb-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Project 3</h3>
+                            <p class="card-text">Description of your project.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <!-- FOLLOW -->
-    <section class="py-5 text-center">
-      <h2 class="section-title">Follow Me</h2>
+        <!-- ==================== CONTACT ==================== -->
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
 
-      <a href="https://github.com/Ali-Raza-Muhammad-Iqbal/" class="mx-3"><i class="fab fa-github fa-2x"></i></a>
-      <a href="https://www.linkedin.com/in/ali-raza-software-engineer1/" class="mx-3"><i class="fab fa-linkedin fa-2x"></i></a>
-      <!-- <a href="#" class="mx-3"><i class="fab fa-instagram fa-2x"></i></a> -->
-    </section>
+            <div class="contact-form-wrapper">
+                <form action="https://api.web3forms.com/submit" method="POST"
+                      class="contact-card p-4 rounded-4 shadow">
+                    <h3 class="mb-3 text-center fw-bold">Get In Touch</h3>
+                    <input type="hidden" name="access_key" value="8375db8b-3b27-4ea7-9f06-7b28917a39e5">
 
-    <!-- FOOTER -->
-    <footer><p>© 2025 Ali Raza. All Rights Reserved.</p></footer>
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-semibold">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-control contact-input"
+                               placeholder="Enter your name" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-semibold">Email</label>
+                        <input type="email" id="email" name="email" class="form-control contact-input"
+                               placeholder="Enter your email" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label fw-semibold">Message</label>
+                        <textarea id="message" class="form-control contact-input" name="message"
+                                  rows="4" placeholder="Write your message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 py-2 contact-btn">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ==================== FOLLOW ==================== -->
+        <section id="follow" class="text-center">
+            <h2 class="section-title">Follow Me</h2>
+
+            <a href="https://github.com/Ali-Raza-Muhammad-Iqbal/" class="social-icon mx-2"
+               aria-label="GitHub profile of Ali Raza" rel="me" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ali-raza-software-engineer1/" class="social-icon mx-2"
+               aria-label="LinkedIn profile of Ali Raza" rel="me" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <p>&copy; 2025 Ali Raza — Software Engineer · Java Backend Developer · All Rights Reserved.</p>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- DARK MODE SCRIPT -->
+    <!-- ==================== DARK MODE SCRIPT ==================== -->
     <script>
-      const themeToggle = document.getElementById("themeToggle");
+        const themeToggle = document.getElementById("themeToggle");
 
-      // Load saved theme
-      if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark-mode");
-        themeToggle.innerHTML = `<i class="fa-solid fa-sun"></i>`;
-        themeToggle.classList.replace("btn-light", "btn-dark");
-      }
-
-      themeToggle.addEventListener("click", () => {
-        document.body.classList.toggle("dark-mode");
-
-        if (document.body.classList.contains("dark-mode")) {
-          themeToggle.innerHTML = `<i class="fa-solid fa-sun"></i>`;
-          themeToggle.classList.replace("btn-light", "btn-dark");
-          localStorage.setItem("theme", "dark");
-        } else {
-          themeToggle.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-          themeToggle.classList.replace("btn-dark", "btn-light");
-          localStorage.setItem("theme", "light");
+        // Load saved theme
+        if (localStorage.getItem("theme") === "dark") {
+            document.body.classList.add("dark-mode");
+            themeToggle.innerHTML = `<i class="fa-solid fa-sun"></i>`;
         }
-      });
+
+        themeToggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+
+            if (document.body.classList.contains("dark-mode")) {
+                themeToggle.innerHTML = `<i class="fa-solid fa-sun"></i>`;
+                localStorage.setItem("theme", "dark");
+            } else {
+                themeToggle.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+                localStorage.setItem("theme", "light");
+            }
+        });
     </script>
-  </body>
+</body>
 </html>
