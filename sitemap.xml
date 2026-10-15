@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- ============================================================
+       HOMEPAGE — Primary Landing Page
+       ============================================================ -->
+  <url>
+    <loc>https://Ali-Raza-SE.github.io/portfolio/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://Ali-Raza-SE.github.io/portfolio/preview.png</image:loc>
+      <image:title>Ali Raza — Software Engineer | Java Backend Developer</image:title>
+      <image:caption>Portfolio of Ali Raza, Software Engineer specializing in Java, Spring Boot, REST APIs, and Microservices.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ABOUT / BIO
+       ============================================================ -->
+  <url>
+    <loc>https://Ali-Raza-SE.github.io/portfolio/#about</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================================================
+       PROJECTS / PORTFOLIO SHOWCASE
+       ============================================================ -->
+  <url>
+    <loc>https://Ali-Raza-SE.github.io/portfolio/#projects</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================================================
+       SKILLS / TECH STACK
+       ============================================================ -->
+  <url>
+    <loc>https://Ali-Raza-SE.github.io/portfolio/#skills</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================================
+       EXPERIENCE / RESUME
+       ============================================================ -->
+  <url>
+    <loc>https://Ali-Raza-SE.github.io/portfolio/#experience</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <url>
+    <loc>https://Ali-Raza-SE.github.io/portfolio/#contact</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================================
+       GITHUB PROFILE (cross-linked for entity recognition)
+       ============================================================ -->
+  <url>
+    <loc>https://github.com/Ali-Raza-SE</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
